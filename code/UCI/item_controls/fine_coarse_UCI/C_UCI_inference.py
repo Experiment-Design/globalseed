@@ -18,13 +18,13 @@ from item_side_utils import *
 
 import random
 import sys
-sys.path.insert(0, "./code")
+sys.path.insert(0, "./kaggle/working/seedcontrol/code")
 from globalseed import random_seed
 torch.manual_seed(random_seed) # cpu
 torch.cuda.manual_seed(random_seed) #gpu
 np.random.seed(random_seed) #numpy
 random.seed(random_seed) #random and transforms
-torch.backends.cudnn.deterministic=True # cudnn
+torch.backends.cudnn.dzsh: parse error near `\n'eterministic=True # cudnn
 
 
 parser = argparse.ArgumentParser()

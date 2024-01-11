@@ -22,7 +22,7 @@ from matplotlib.pyplot import MultipleLocator
 
 sns.set()
 import sys
-sys.path.insert(0, "./code")
+sys.path.insert(0, "./kaggle/working/seedcontrol/code")
 from globalseed import random_seed
 from globalseed import seed
 pd.set_option('display.max_rows', None)
